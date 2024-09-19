@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Osigurava da je iznad sadržaja */
+    background-color: #f8f9fa; /* Boja pozadine zaglavlja */
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Osigurava da je iznad sadržaja */
+    background-color: #f8f9fa; /* Boja pozadine podnožja */
+  }
+
+  .main-content {
+    padding-top: 70px; /* Visina zaglavlja */
+    padding-bottom: 50px; /* Visina podnožja */
+  }
+  
